@@ -119,6 +119,33 @@ ocupa 90% do view port*/
   #post_wrapper hr {
     margin: 3em auto; }
 
+#post_show_content header {
+  text-align: center; }
+  #post_show_content header .date {
+    font-size: .9em;
+    color: #9a9da4;
+    margin: 0; }
+  #post_show_content header h1 {
+    margin: 0; }
+#post_show_content hr {
+  margin: 3em auto; }
+
+#share_box {
+  text-align: center; }
+  #share_box p {
+    padding: 0 0 1em 0;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #424652;
+    font-size: .8em; }
+  #share_box i {
+    color: #424652;
+    padding: 1em 1.5em; }
+    #share_box i:hover {
+      color: #EC6A5C;
+      cursor: pointer; }
+
 .pagination:before,
 .pagination:after {
   content: " ";
