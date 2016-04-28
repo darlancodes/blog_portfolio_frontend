@@ -1,0 +1,56 @@
+@charset "UTF-8";
+#post_wrapper {
+  padding: 3em 0; }
+  #post_wrapper .post {
+    text-align: center; }
+    #post_wrapper .post .date {
+      font-size: .9em;
+      margin: 0; }
+    #post_wrapper .post h2 {
+      margin: 0;
+      font-size: 2em;
+      text-transform: uppercase; }
+      #post_wrapper .post h2 a {
+        text-decoration: none;
+        color: #424652; }
+        #post_wrapper .post h2 a:hover {
+          color: #8bc6db; }
+  #post_wrapper hr {
+    margin: 3em auto; }
+
+.pagination:before,
+.pagination:after {
+  content: " ";
+  display: table; }
+
+.pagination:after {
+  clear: both; }
+
+.pagination {
+  text-align: center;
+  margin: 0 0 3em 0; }
+  .pagination a, .pagination .previous_page, .pagination .current, .pagination .next_page {
+    padding: .75em 1em;
+    margin: 0 .5em;
+    border-radius: .15em;
+    text-decoration: none;
+    background: #FFFFFF;
+    font-weight: 700;
+    font-size: .7em;
+    font-style: normal;
+                   /*em tag deixa ele it├ílico
+isso remove ele*/
+    color: #424652; }
+    .pagination a:hover, .pagination .previous_page:hover, .pagination .current:hover, .pagination .next_page:hover {
+      color: #FFFFFF;
+      background: #8bc6db; }
+  .pagination .current {
+    background: #8bc6db;
+    color: #FFFFFF; }
+  .pagination .disabled {
+    color: #C0C0C0; }
+    .pagination .disabled:hover {
+      color: #C0C0C0;
+      background: #FFFFFF; }
+
+/*# sourceMappingURL=post_project.css.map */
