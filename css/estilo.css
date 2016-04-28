@@ -4,12 +4,12 @@ body {
 
 * {
   box-sizing: border-box;
-  /*N├úo permite que o padding seja adicionado ao width
+  /*Não permite que o padding seja adicionado ao width
   de cada coluna*/ }
 
 .wrapper {
   width: 90%;
-          /*90% da p├ígina, o q significa que a largura
+          /*90% da página, o q significa que a largura
 ocupa 90% do view port*/
   margin: 0 auto;
   /*Centralizado em 90% do view_port*/ }
@@ -61,7 +61,7 @@ ocupa 90% do view port*/
       margin: 0 1rem;
       font-size: 1rem; }
       #main_navigation nav a:hover {
-        color: #8bc6db; }
+        color: #EC6A5C; }
 
 .col-1, .col-2, .col-3 {
   float: left; }
@@ -85,7 +85,7 @@ ocupa 90% do view port*/
   text-decoration: none;
   color: #424652; }
   .homepage_content a:hover {
-    color: #8bc6db; }
+    color: #EC6A5C; }
 .homepage_content .date {
   font-size: .85em;
   color: #9a9da4;
@@ -96,7 +96,7 @@ ocupa 90% do view port*/
 .about {
   padding: 0 7.5% 0 0; }
   .about a {
-    color: #8bc6db;
+    color: #EC6A5C;
     text-decoration: none;
     font-weight: 500; }
 
@@ -115,7 +115,7 @@ ocupa 90% do view port*/
         text-decoration: none;
         color: #424652; }
         #post_wrapper .post h2 a:hover {
-          color: #8bc6db; }
+          color: #EC6A5C; }
   #post_wrapper hr {
     margin: 3em auto; }
 
@@ -139,14 +139,14 @@ ocupa 90% do view port*/
     font-weight: 700;
     font-size: .7em;
     font-style: normal;
-                   /*em tag deixa ele it├ílico
+                   /*em tag deixa ele itálico
 isso remove ele*/
     color: #424652; }
     .pagination a:hover, .pagination .previous_page:hover, .pagination .current:hover, .pagination .next_page:hover {
       color: #FFFFFF;
-      background: #8bc6db; }
+      background: #EC6A5C; }
   .pagination .current {
-    background: #8bc6db;
+    background: #EC6A5C;
     color: #FFFFFF; }
   .pagination .disabled {
     color: #C0C0C0; }
@@ -187,7 +187,7 @@ hr {
   display: block;
   height: 2px;
   border: 0;
-  border-top: 2px solid #8bc6db;
+  border-top: 2px solid #EC6A5C;
   margin: 2rem 0; }
 
 #main_footer {
@@ -205,6 +205,6 @@ hr {
       margin-left: 1rem;
       padding-top: .2em; }
       #main_footer nav i:hover {
-        color: #8bc6db; }
+        color: #EC6A5C; }
 
 /*# sourceMappingURL=estilo.css.map */

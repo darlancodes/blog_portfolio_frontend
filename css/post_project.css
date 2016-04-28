@@ -14,7 +14,7 @@
         text-decoration: none;
         color: #424652; }
         #post_wrapper .post h2 a:hover {
-          color: #8bc6db; }
+          color: #EC6A5C; }
   #post_wrapper hr {
     margin: 3em auto; }
 
@@ -38,14 +38,14 @@
     font-weight: 700;
     font-size: .7em;
     font-style: normal;
-                   /*em tag deixa ele it├ílico
+                   /*em tag deixa ele itálico
 isso remove ele*/
     color: #424652; }
     .pagination a:hover, .pagination .previous_page:hover, .pagination .current:hover, .pagination .next_page:hover {
       color: #FFFFFF;
-      background: #8bc6db; }
+      background: #EC6A5C; }
   .pagination .current {
-    background: #8bc6db;
+    background: #EC6A5C;
     color: #FFFFFF; }
   .pagination .disabled {
     color: #C0C0C0; }
