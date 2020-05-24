@@ -1,7 +1,6 @@
-###Front End Blog_Portfolio
+### Front End Blog_Portfolio
 
- - HTML5
- - CSS3 (SASS)
+Built with
 
- :)
+HTML5 + SAAS
 
